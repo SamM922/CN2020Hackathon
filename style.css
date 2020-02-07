@@ -1,0 +1,77 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #b2fcff;
+}
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.navbar  {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.link:link, .link:visited {
+  text-decoration: none;
+  color: #3e64ff;
+  display: block;
+}
+
+.link:hover, .link.active {
+  color: #f58142;
+  display: block;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  border: black 2px solid;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+.row {
+  display:flex;
+  justify-content: space-around;
+}
+
+.person {
+  border:solid 2px black
+    
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  width:50%;
+}
+
+.donate {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
