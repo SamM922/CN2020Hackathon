@@ -2,6 +2,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background: #b2fcff;
+  font-size: 20px;
 }
 h1 {
   font-style: italic;
@@ -74,4 +75,30 @@ h1 {
   margin-top: 30px;
   font-size: 30px;
   text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comments {
+  width: 70%;
+}
+
+.ratings {
+  width: 30%;
+}
+
+.border {
+  border: solid black 2px;
+}
+
+.pad {
+  margin-top: 20px;
+}
+
+#group {
+  width: 800px;
+  margin: 10px;
 }
